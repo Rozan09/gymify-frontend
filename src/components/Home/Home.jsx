@@ -1,8 +1,8 @@
 import React from 'react'
 import CalorieCalculator from '../CalorieCalculator/CalorieCalculator'
-import Mainslider from '../Mainslider/Mainslider'
 import About from '../About/About'
 import Loader from '../Loader/Loader';
+import MainSlider from '../Mainslider/Mainslider';
 
 
 const testimonials = [
@@ -35,7 +35,7 @@ const testimonials = [
 
 export default function Home() {
   return (<>
-     <Mainslider />
+     <MainSlider/>
       <div className="container m-auto">
         <About />
         <CalorieCalculator />
