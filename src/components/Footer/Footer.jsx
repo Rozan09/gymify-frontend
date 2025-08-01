@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/images/Gymifyy.png';
+import logo from '../../../assets/images/Gymifyy.png';
 
 export default function Footer() {
   const [email, setEmail] = useState('');
