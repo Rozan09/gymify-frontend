@@ -2,7 +2,7 @@ import React from 'react'
 import CalorieCalculator from '../CalorieCalculator/CalorieCalculator'
 import About from '../About/About'
 import Loader from '../Loader/Loader';
-import MainSlider from '../Mainslider/Mainslider';
+import MainSlider from '../MainSlider/MainSlider';
 
 
 const testimonials = [
