@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/images/Gymifyy.png';
+import Gymifyy from '../../assets/images/Gymifyy.PNG';
 
 export default function Footer() {
   const [email, setEmail] = useState('');
@@ -19,7 +19,7 @@ export default function Footer() {
           {/* Brand and Newsletter Section */}
           <div>
             <div className="flex items-center mb-4">
-              <img src={logo} className="h-10" alt="Gymifyy Logo" />
+              <img src={Gymifyy} className="h-10" alt="Gymifyy Logo" />
             </div>
             <p className="text-sm text-gray-400 mb-4">
               Your ultimate destination for fitness transformation. Join our community today!

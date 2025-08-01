@@ -2,7 +2,7 @@ import React, { useContext, useState, useEffect } from 'react'
 import { Link, NavLink, useNavigate, useLocation } from 'react-router-dom'
 import { useAuth } from '../Context/AuthContextProvider';
 import { NotificationContext } from '../Context/NotificationContextProvider';
-import logo from '../../assets/images/Gymifyy.png';
+import Gymifyy from '../../assets/images/Gymifyy.PNG'
 import { jwtDecode } from 'jwt-decode';
 
 export default function Navbar() {
@@ -91,7 +91,7 @@ export default function Navbar() {
         <div className="flex items-center">
           {/* Logo */}
           <Link to="/" className="flex items-center mr-8">
-            <img src={logo} className="h-13" alt="Gymify Logo" />
+            <img src={Gymifyy} className="h-13" alt="Gymify Logo" />
           </Link>
 
           {/* Navigation Links - Only visible when logged in */}
