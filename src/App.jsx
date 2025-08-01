@@ -28,10 +28,11 @@ import Notifications from './components/Notification/Notifications'
 import NotificationContextProvider from './components/Context/NotificationContextProvider'
 import Transformation from './components/Transformation/Transformation'
 import BundleBooking from './components/BundleBooking/BundleBooking'
-import BundleManagement from './components/Bundles/BundleManagement'
+// import BundleManagement from './components/Bundles/BundleManagement'
 import TIB from './components/TIB/TIB'
 import Payment from './components/Orders/Payment'
 import Pay from './components/Orders/Pay'
+import BundleManagement from './components/Bundles/Bundlemanagement'
 // import TIA from './components/TIA/TIA'
 
 export default function App() {
@@ -58,7 +59,7 @@ export default function App() {
         { path: 'Orders', element: <ProtectedRouting><Orders /></ProtectedRouting> },
         { path: 'Notifications', element: <ProtectedRouting><Notifications /></ProtectedRouting> },
         { path: 'bundle/:bundleId/book', element: <ProtectedRouting><BundleBooking /></ProtectedRouting> },
-        { path: 'manage-bundles', element: <ProtectedRouting><BundleManagement /></ProtectedRouting> },
+        { path: 'manage-bundles', element: <ProtectedRouting><BundleManagement/></ProtectedRouting> },
         { path: 'transformation/:id', element: <ProtectedRouting><Transformation /></ProtectedRouting> },
         { path: 'TIB', element: <ProtectedRouting><TIB/></ProtectedRouting> },
         { path: 'Pay', element: <ProtectedRouting><Pay/></ProtectedRouting> },
